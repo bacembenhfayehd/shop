@@ -1,15 +1,14 @@
 'use client'
-
-import Navbar from '@/app/components/seller/Navbar'
-import SideBar from '@/app/components/seller/Sidebar'
+import Navbar from '../components/seller/Navbar'
+import Sidebar from '../components/seller/Sidebar'
 import React from 'react'
 
 const Layout = ({ children }) => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <div className='flex w-full'>
-        <SideBar/>
+        <Sidebar />
         {children}
       </div>
     </div>
