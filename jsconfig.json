@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": "app",   // Définir la racine comme étant "app"
+    "baseUrl": ".",  
     "paths": {
-      "@/*": ["./*"]    // Alias pour accéder à tout sous "app/"
+      "@/*": ["app/*"]
     }
   }
 }
