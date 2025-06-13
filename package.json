@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    
-  "build": "echo '📦 Starting build' && next build",
- "start": "next start",
+    "build": "echo '📦 Starting build' && next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -18,9 +17,12 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@types/react": "19.1.2",
+    "@types/node": "^24.0.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.6",
     "eslint": "^9",
     "eslint-config-next": "15.3.0",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "^5.8.3"
   }
 }
