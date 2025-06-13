@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-   output: 'export', // Optionnel pour optimiser
+   output: 'standalone', // Optionnel pour optimiser
   trailingSlash: true,
     images: {
       domains: ['raw.githubusercontent.com'],
